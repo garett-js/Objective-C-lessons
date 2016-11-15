@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A973164E667F5000897DF353CF0E6F99B53AA151",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A973164E667F5000897DF353CF0E6F99B53AA151" : 9223372036854775807,
+    "BE2370B57C7A5BF70F3197AF3D4EE45B885885A1" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ABCE76A4-1E12-4E42-A2C3-F09B6E059C68",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A973164E667F5000897DF353CF0E6F99B53AA151" : "HomeWork\/",
+    "BE2370B57C7A5BF70F3197AF3D4EE45B885885A1" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HomeworkDelegate",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HomeworkDelegate\/HomeworkDelegate.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/garett-js\/Objective-C-lessons.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A973164E667F5000897DF353CF0E6F99B53AA151"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/garett-js\/objective-c-basic.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BE2370B57C7A5BF70F3197AF3D4EE45B885885A1"
+    }
+  ]
+}
