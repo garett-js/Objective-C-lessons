@@ -10,6 +10,7 @@
 		E2BE4CA21DDAD2B300EF9D59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BE4CA11DDAD2B300EF9D59 /* main.m */; };
 		E2BE4CAA1DDAD49000EF9D59 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BE4CA91DDAD49000EF9D59 /* Patient.m */; };
 		E2BE4CAD1DDAD49600EF9D59 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BE4CAC1DDAD49600EF9D59 /* Doctor.m */; };
+		E2BE4CB01DDAE4D000EF9D59 /* BadDoctor.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BE4CAF1DDAE4D000EF9D59 /* BadDoctor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		E2BE4CA91DDAD49000EF9D59 /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
 		E2BE4CAB1DDAD49600EF9D59 /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
 		E2BE4CAC1DDAD49600EF9D59 /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		E2BE4CAE1DDAE4D000EF9D59 /* BadDoctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadDoctor.h; sourceTree = "<group>"; };
+		E2BE4CAF1DDAE4D000EF9D59 /* BadDoctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadDoctor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				E2BE4CA91DDAD49000EF9D59 /* Patient.m */,
 				E2BE4CAB1DDAD49600EF9D59 /* Doctor.h */,
 				E2BE4CAC1DDAD49600EF9D59 /* Doctor.m */,
+				E2BE4CAE1DDAE4D000EF9D59 /* BadDoctor.h */,
+				E2BE4CAF1DDAE4D000EF9D59 /* BadDoctor.m */,
 			);
 			path = HomeworkDelegate;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2BE4CB01DDAE4D000EF9D59 /* BadDoctor.m in Sources */,
 				E2BE4CA21DDAD2B300EF9D59 /* main.m in Sources */,
 				E2BE4CAA1DDAD49000EF9D59 /* Patient.m in Sources */,
 				E2BE4CAD1DDAD49600EF9D59 /* Doctor.m in Sources */,

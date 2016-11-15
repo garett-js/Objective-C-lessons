@@ -43,6 +43,7 @@
 #import <Foundation/Foundation.h>
 #import "Patient.h"
 #import "Doctor.h"
+#import "BadDoctor.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -64,7 +65,18 @@ int main(int argc, const char * argv[]) {
         }
         
         /// *** Студент *** ///
+        BadDoctor* badDoctor1 = [BadDoctor new];
+        BadDoctor* badDoctor2 = [BadDoctor new];
         
+        patient1.delegate = badDoctor1;
+        patient2.delegate = doctor;
+        patient3.delegate = doctor;
+        patient4.delegate = badDoctor2;
+        patient5.delegate = badDoctor2;
+        
+        for (Patient* patient in patients) {
+            [patient feelsBad];
+        }
         
     }
     return 0;
