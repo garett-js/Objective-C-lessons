@@ -21,6 +21,9 @@
     return self;
 }
 
+- (void) feelsBadWith:(PartOfTheBody)part {
+    [self.delegate patient:self somethingWith:part];
+}
 - (void) feelsBad {
     [self.delegate patientFeelsBad:self];
 }

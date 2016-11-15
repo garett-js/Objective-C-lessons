@@ -49,6 +49,7 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
         /// *** Ученик *** ///
+        NSLog(@"======= PUPIL =======");
         Doctor* doctor = [Doctor new]; // [Doctor alloc] init];
         
         Patient* patient1 = [[Patient alloc] initWithName:@"Alex"  temprature:36.6f headache:true];
@@ -65,6 +66,7 @@ int main(int argc, const char * argv[]) {
         }
         
         /// *** Студент *** ///
+        NSLog(@"======= Student =======");
         BadDoctor* badDoctor1 = [BadDoctor new];
         BadDoctor* badDoctor2 = [BadDoctor new];
         
@@ -77,6 +79,28 @@ int main(int argc, const char * argv[]) {
         for (Patient* patient in patients) {
             [patient feelsBad];
         }
+        
+        /// *** Мастер *** ///
+        NSLog(@"======= MASTER =======");
+        Patient* patient6 = [[Patient alloc] initWithName:@"Nastya" temprature:41.6f headache:true];
+        Patient* patient7 = [[Patient alloc] initWithName:@"Dasha" temprature:42.6f headache:false];
+        
+        patient1.delegate = doctor; patient2.delegate = doctor; patient3.delegate = doctor;
+        patient4.delegate = doctor; patient5.delegate = doctor; patient6.delegate = doctor;
+        patient7.delegate = doctor;
+        
+        [patient1 feelsBadWith:head];
+        [patient2 feelsBadWith:head];
+        [patient3 feelsBadWith:arm];
+        [patient4 feelsBadWith:arm];
+        [patient5 feelsBadWith:leg];
+        [patient6 feelsBadWith:teeth];
+        [patient7 feelsBadWith:teeth];
+        
+        [doctor raport];
+        
+        /// *** Мастер *** ///
+        NSLog(@"======= MASTER =======");
         
     }
     return 0;

@@ -7,6 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+typedef enum {
+    head,
+    leg,
+    arm,
+    teeth
+} PartOfTheBody;
+
 @protocol PatientDelegate;
 
 @interface Patient : NSObject
@@ -16,6 +23,7 @@
 @property (weak, nonatomic) id<PatientDelegate> delegate;
 
 - (instancetype)initWithName:(NSString*)name temprature:(float)temp headache:(float)headache;
+- (void) feelsBadWith:(PartOfTheBody)part;
 - (void) feelsBad;
 - (void) takePill;
 - (void) makeShot;
@@ -25,5 +33,6 @@
 @protocol PatientDelegate <NSObject>
 
 @optional
+- (void) patient:(Patient*)patient somethingWith:(PartOfTheBody)part;
 - (void) patientFeelsBad:(Patient*)patient;
 @end
