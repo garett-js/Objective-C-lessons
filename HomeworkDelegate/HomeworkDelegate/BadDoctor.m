@@ -11,6 +11,10 @@
 
 @implementation BadDoctor
 
+- (void) raport {
+    NSLog(@"Report? What is this?! FUUUUUUUUU!!!!");
+}
+
 - (void) patientFeelsBad:(Patient *)patient {
     if (patient.headache == true) {
         NSLog(@"YOU SHALL NOT PASS !!!");

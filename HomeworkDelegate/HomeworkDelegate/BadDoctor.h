@@ -10,5 +10,5 @@
 #import "Patient.h"
 
 @interface BadDoctor : NSObject <PatientDelegate>
-
+- (void) raport;
 @end

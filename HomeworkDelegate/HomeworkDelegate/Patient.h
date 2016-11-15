@@ -14,12 +14,18 @@ typedef enum {
     teeth
 } PartOfTheBody;
 
+typedef enum {
+    like,
+    dislike
+} Feedback;
+
 @protocol PatientDelegate;
 
 @interface Patient : NSObject
 @property (strong, nonatomic) NSString* name;
 @property (assign, nonatomic) float temperature;
 @property (assign, nonatomic) BOOL headache;
+@property (assign, nonatomic) Feedback feedBack;
 @property (weak, nonatomic) id<PatientDelegate> delegate;
 
 - (instancetype)initWithName:(NSString*)name temprature:(float)temp headache:(float)headache;

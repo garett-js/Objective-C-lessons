@@ -99,8 +99,25 @@ int main(int argc, const char * argv[]) {
         
         [doctor raport];
         
-        /// *** Мастер *** ///
-        NSLog(@"======= MASTER =======");
+        /// *** Супермен *** ///
+        NSLog(@"======= SUPERMAN =======");
+        
+        NSArray* newPatients = @[patient1,patient2,patient3,patient4,patient5, patient6, patient7];
+        
+        patient1.feedBack = dislike;
+        patient2.feedBack = dislike;
+        patient6.feedBack = dislike;
+        
+        for (Patient* pat in newPatients) {
+            if (pat.feedBack == dislike) {
+                pat.delegate = badDoctor1;
+                [pat feelsBad];
+            }
+        }
+        
+        [badDoctor1 raport];
+        
+        
         
     }
     return 0;
