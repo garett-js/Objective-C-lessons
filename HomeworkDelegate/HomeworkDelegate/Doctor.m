@@ -22,7 +22,7 @@
     } else if (patient.temperature > 39.f) {
         [patient makeShot];
     } else {
-        NSLog(@"Patient %@ should rest", patient.name);
+        NSLog(@"Patient %@ should rest!!!", patient.name);
     }
 }
 

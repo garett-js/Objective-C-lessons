@@ -47,7 +47,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        // *** Ученик *** ///
+        /// *** Ученик *** ///
         Doctor* doctor = [Doctor new]; // [Doctor alloc] init];
         
         Patient* patient1 = [[Patient alloc] initWithName:@"Alex"  temprature:36.6f headache:true];
@@ -63,7 +63,7 @@ int main(int argc, const char * argv[]) {
             [patient feelsBad];
         }
         
-        // *** Студент *** //
+        /// *** Студент *** ///
         
         
     }

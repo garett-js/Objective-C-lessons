@@ -25,10 +25,10 @@
     [self.delegate patientFeelsBad:self];
 }
 - (void) takePill {
-    NSLog(@"Patient %@ takes a pill", self.name);
+    NSLog(@"Patient %@ takes a pill!", self.name);
 }
 - (void) makeShot {
-    NSLog(@"Patient %@ make shot", self.name);
+    NSLog(@"Patient %@ make shot!", self.name);
 }
 - (void) sleep {
     NSLog(@"Patient %@ should go to sleep", self.name);

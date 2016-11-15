@@ -26,5 +26,4 @@
 
 @optional
 - (void) patientFeelsBad:(Patient*)patient;
-
 @end
