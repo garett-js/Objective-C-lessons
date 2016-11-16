@@ -17,6 +17,7 @@
 		E223075E1DDC30C60091DAA4 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = E223075D1DDC30C60091DAA4 /* Doctor.m */; };
 		E22307611DDC31FC0091DAA4 /* Pensioner.m in Sources */ = {isa = PBXBuildFile; fileRef = E22307601DDC31FC0091DAA4 /* Pensioner.m */; };
 		E22307641DDC32180091DAA4 /* Businessman.m in Sources */ = {isa = PBXBuildFile; fileRef = E22307631DDC32180091DAA4 /* Businessman.m */; };
+		E22307671DDC4B100091DAA4 /* MyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E22307661DDC4B100091DAA4 /* MyAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		E22307601DDC31FC0091DAA4 /* Pensioner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pensioner.m; sourceTree = "<group>"; };
 		E22307621DDC32180091DAA4 /* Businessman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Businessman.h; sourceTree = "<group>"; };
 		E22307631DDC32180091DAA4 /* Businessman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Businessman.m; sourceTree = "<group>"; };
+		E22307651DDC4B100091DAA4 /* MyAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAppDelegate.h; sourceTree = "<group>"; };
+		E22307661DDC4B100091DAA4 /* MyAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 				E22307601DDC31FC0091DAA4 /* Pensioner.m */,
 				E22307451DDC30860091DAA4 /* AppDelegate.h */,
 				E22307461DDC30860091DAA4 /* AppDelegate.m */,
+				E22307651DDC4B100091DAA4 /* MyAppDelegate.h */,
+				E22307661DDC4B100091DAA4 /* MyAppDelegate.m */,
 				E22307481DDC30860091DAA4 /* ViewController.h */,
 				E22307491DDC30860091DAA4 /* ViewController.m */,
 				E223074B1DDC30860091DAA4 /* Main.storyboard */,
@@ -174,6 +179,7 @@
 				E22307611DDC31FC0091DAA4 /* Pensioner.m in Sources */,
 				E223074A1DDC30860091DAA4 /* ViewController.m in Sources */,
 				E22307471DDC30860091DAA4 /* AppDelegate.m in Sources */,
+				E22307671DDC4B100091DAA4 /* MyAppDelegate.m in Sources */,
 				E22307441DDC30860091DAA4 /* main.m in Sources */,
 				E223075E1DDC30C60091DAA4 /* Doctor.m in Sources */,
 				E22307641DDC32180091DAA4 /* Businessman.m in Sources */,

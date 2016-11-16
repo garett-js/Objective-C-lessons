@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MyAppDelegate.h"
 #import "Government.h"
 #import "Doctor.h"
 #import "Pensioner.h"
@@ -17,6 +18,7 @@
 @property (strong, nonatomic) Businessman* businessman;
 @property (strong, nonatomic) Doctor* doctor;
 @property (strong, nonatomic) Pensioner* pensioner;
+@property (strong, nonatomic) MyAppDelegate* myAppDelegate;
 @end
 
 @implementation AppDelegate
@@ -49,6 +51,11 @@
     
     self.government.salary = 600.f;
     self.government.pension = 2000.f;
+    
+    
+    self.myAppDelegate = [MyAppDelegate new];
+    
+    NSLog(@"TRUE AppDelegate next");
     
     return YES;
 }
