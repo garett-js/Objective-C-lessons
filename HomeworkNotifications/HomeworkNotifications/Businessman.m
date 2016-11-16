@@ -8,6 +8,8 @@
 
 #import "Businessman.h"
 #import "Government.h"
+#import "AppDelegate.h"
+
 
 //@private
 @interface Businessman ()
@@ -36,6 +38,21 @@
                                                  selector:@selector(averagePriceChangeNotification:)
                                                      name:GovernmentAveragePriceDidChangeNotification
                                                    object:nil];
+        
+        [[NSNotificationCenter defaultCenter] addObserver:self
+                                                 selector:@selector(didEnterBackgroundNotification:)
+                                                     name:UIApplicationDidEnterBackgroundNotification
+                                                   object:nil];
+        
+        [[NSNotificationCenter defaultCenter] addObserver:self
+                                                 selector:@selector(willEnterForegroundNotification:)
+                                                     name:UIApplicationWillEnterForegroundNotification
+                                                   object:nil];
+        
+        
+        
+        
+        
     }
     return self;
 }
@@ -45,6 +62,14 @@
 }
 
 #pragma mark - Notofications
+
+- (void) didEnterBackgroundNotification:(NSNotification*)notification {
+    NSLog(@"%@ going to sleep! userInfo:%@", self.name, notification.userInfo);
+}
+
+- (void) willEnterForegroundNotification:(NSNotification*)notification {
+    NSLog(@"%@ wake up! userInfo:%@", self.name, notification.userInfo);
+}
 
 - (void) taxLevelChangeNotification:(NSNotification*)notification {
     NSLog(@"Businessman > taxLevelChangeNotification userInfo:%@", notification.userInfo);

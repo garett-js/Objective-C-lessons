@@ -14,6 +14,9 @@
 
 @interface AppDelegate ()
 @property (strong, nonatomic) Government* government;
+@property (strong, nonatomic) Businessman* businessman;
+@property (strong, nonatomic) Doctor* doctor;
+@property (strong, nonatomic) Pensioner* pensioner;
 @end
 
 @implementation AppDelegate
@@ -28,12 +31,15 @@
                                                  name:GovernmentTaxLevelDidChangeNotification
                                                object:nil];
     
-    Doctor* doctor = [Doctor new];
-    doctor.name = @"Dr. House";
-    Businessman* businessman = [Businessman new];
-    businessman.name = @"Tramp";
-    Pensioner* pensioner = [Pensioner new];
-    pensioner.name = @"Jhon";
+    
+    self.businessman = [Businessman new];
+    self.businessman.name = @"Tramp";
+    
+    self.doctor = [Doctor new];
+    self.doctor.name = @"House";
+    
+    self.pensioner = [Pensioner new];
+    self.pensioner.name = @"Jhon";
     
     
     self.government.taxLevel = 5.5f;

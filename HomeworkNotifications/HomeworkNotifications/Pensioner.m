@@ -8,6 +8,7 @@
 
 #import "Pensioner.h"
 #import "Government.h"
+#import "AppDelegate.h"
 
 @interface Pensioner ()
 @property (assign, nonatomic) float averagePrice;
@@ -35,6 +36,17 @@
                                                  selector:@selector(averagePriceChangeNotification:)
                                                      name:GovernmentAveragePriceDidChangeNotification
                                                    object:nil];
+        
+        [[NSNotificationCenter defaultCenter] addObserver:self
+                                                 selector:@selector(didEnterBackgroundNotification:)
+                                                     name:UIApplicationDidEnterBackgroundNotification
+                                                   object:nil];
+        
+        [[NSNotificationCenter defaultCenter] addObserver:self
+                                                 selector:@selector(willEnterForegroundNotification:)
+                                                     name:UIApplicationWillEnterForegroundNotification
+                                                   object:nil];
+        
     }
     return self;
 }
@@ -44,6 +56,15 @@
 }
 
 #pragma mark - Notofications
+
+
+- (void) didEnterBackgroundNotification:(NSNotification*)notification {
+    NSLog(@"%@ going to sleep! userInfo:%@", self.name, notification.userInfo);
+}
+
+- (void) willEnterForegroundNotification:(NSNotification*)notification {
+    NSLog(@"%@ wake up! userInfo:%@", self.name, notification.userInfo);
+}
 
 - (void) pensionChangeNotification:(NSNotification*)notification {
     NSLog(@"Pensioner > pensionChangeNotification userInfo:%@", notification.userInfo);
