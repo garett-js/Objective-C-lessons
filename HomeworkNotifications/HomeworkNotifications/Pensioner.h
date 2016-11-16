@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface Pensioner : NSObject
-
+@property (strong, nonatomic) NSString* name;
+@property (assign, nonatomic) float pension;
 @end

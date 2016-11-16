@@ -29,14 +29,20 @@
                                                object:nil];
     
     Doctor* doctor = [Doctor new];
+    doctor.name = @"Dr. House";
     Businessman* businessman = [Businessman new];
+    businessman.name = @"Tramp";
     Pensioner* pensioner = [Pensioner new];
+    pensioner.name = @"Jhon";
     
     
     self.government.taxLevel = 5.5f;
     self.government.salary = 1100.f;
     self.government.pension = 550.f;
     self.government.averagePrice = 15.f;
+    
+    self.government.salary = 600.f;
+    self.government.pension = 2000.f;
     
     return YES;
 }

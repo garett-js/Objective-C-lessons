@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface Businessman : NSObject
+@property (strong, nonatomic) NSString* name;
+@property (assign, nonatomic) float taxLevel;
 
 @end

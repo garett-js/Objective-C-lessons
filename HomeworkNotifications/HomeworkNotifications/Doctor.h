@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface Doctor : NSObject
+@property (strong, nonatomic) NSString* name;
 @property (assign, nonatomic) float salary;
 @end
