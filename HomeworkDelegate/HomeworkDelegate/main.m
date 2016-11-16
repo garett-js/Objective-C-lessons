@@ -61,7 +61,7 @@ int main(int argc, const char * argv[]) {
         NSArray* patients = @[patient1,patient2,patient3,patient4,patient5];
         
         for (Patient* patient in patients) {
-            patient.delegate = doctor;
+            //patient.delegate = doctor;
             [patient feelsBad];
         }
         
