@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A973164E667F5000897DF353CF0E6F99B53AA151",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A973164E667F5000897DF353CF0E6F99B53AA151" : 9223372036854775807,
+    "BE2370B57C7A5BF70F3197AF3D4EE45B885885A1" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5EC7DD36-886D-4532-847A-1A141D0A9124",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A973164E667F5000897DF353CF0E6F99B53AA151" : "HomeWork\/",
+    "BE2370B57C7A5BF70F3197AF3D4EE45B885885A1" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HomeworkMultithreading",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HomeworkMultithreading\/HomeworkMultithreading.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/garett-js\/Objective-C-lessons.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A973164E667F5000897DF353CF0E6F99B53AA151"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/garett-js\/objective-c-basic.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BE2370B57C7A5BF70F3197AF3D4EE45B885885A1"
+    }
+  ]
+}
