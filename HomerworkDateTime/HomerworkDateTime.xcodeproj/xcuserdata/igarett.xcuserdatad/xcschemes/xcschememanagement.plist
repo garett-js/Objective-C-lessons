@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>HomeworkDate.xcscheme</key>
+		<key>HomerworkDateTime.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>E2644A9C1DE6BF2E00C31A8F</key>
+		<key>E2644ADB1DE804FF00C31A8F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

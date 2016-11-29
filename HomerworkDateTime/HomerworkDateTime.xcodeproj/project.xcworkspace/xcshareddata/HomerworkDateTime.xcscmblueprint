@@ -7,14 +7,14 @@
     "A973164E667F5000897DF353CF0E6F99B53AA151" : 9223372036854775807,
     "BE2370B57C7A5BF70F3197AF3D4EE45B885885A1" : 9223372036854775807
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0C30446D-C4E7-4BFF-B207-B56F758583EE",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2B8598BC-B659-421A-8AFE-ECCCEF468145",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "A973164E667F5000897DF353CF0E6F99B53AA151" : "HomeWork\/",
     "BE2370B57C7A5BF70F3197AF3D4EE45B885885A1" : ""
   },
-  "DVTSourceControlWorkspaceBlueprintNameKey" : "HomeworkDate",
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HomerworkDateTime",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HomeworkDate\/HomeworkDate.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HomerworkDateTime\/HomerworkDateTime.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/garett-js\/Objective-C-lessons.git",

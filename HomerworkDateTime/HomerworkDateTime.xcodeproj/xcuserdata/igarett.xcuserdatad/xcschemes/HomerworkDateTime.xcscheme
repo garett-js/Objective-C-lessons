@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E2644A9C1DE6BF2E00C31A8F"
-               BuildableName = "HomeworkDate"
-               BlueprintName = "HomeworkDate"
-               ReferencedContainer = "container:HomeworkDate.xcodeproj">
+               BlueprintIdentifier = "E2644ADB1DE804FF00C31A8F"
+               BuildableName = "HomerworkDateTime.app"
+               BlueprintName = "HomerworkDateTime"
+               ReferencedContainer = "container:HomerworkDateTime.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E2644A9C1DE6BF2E00C31A8F"
-            BuildableName = "HomeworkDate"
-            BlueprintName = "HomeworkDate"
-            ReferencedContainer = "container:HomeworkDate.xcodeproj">
+            BlueprintIdentifier = "E2644ADB1DE804FF00C31A8F"
+            BuildableName = "HomerworkDateTime.app"
+            BlueprintName = "HomerworkDateTime"
+            ReferencedContainer = "container:HomerworkDateTime.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E2644A9C1DE6BF2E00C31A8F"
-            BuildableName = "HomeworkDate"
-            BlueprintName = "HomeworkDate"
-            ReferencedContainer = "container:HomeworkDate.xcodeproj">
+            BlueprintIdentifier = "E2644ADB1DE804FF00C31A8F"
+            BuildableName = "HomerworkDateTime.app"
+            BlueprintName = "HomerworkDateTime"
+            ReferencedContainer = "container:HomerworkDateTime.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E2644A9C1DE6BF2E00C31A8F"
-            BuildableName = "HomeworkDate"
-            BlueprintName = "HomeworkDate"
-            ReferencedContainer = "container:HomeworkDate.xcodeproj">
+            BlueprintIdentifier = "E2644ADB1DE804FF00C31A8F"
+            BuildableName = "HomerworkDateTime.app"
+            BlueprintName = "HomerworkDateTime"
+            ReferencedContainer = "container:HomerworkDateTime.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
